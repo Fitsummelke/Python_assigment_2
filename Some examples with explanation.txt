@@ -1,0 +1,103 @@
+this is the first look of the code when we run the program
+
+((((((((((((((Student Management System)))))))))))))))))
+0. Register new student
+1. Search Student
+2. Update Student Name
+3. Update Student GPA
+4. Delete Student Information
+5. count and display total number of students
+6. count total number of male and female students
+7. display  name and departement of top scored students for each departement       
+8. display  name and departement of top scored female students for each departement
+9. list names of students who scored greater than a given gpa
+10. show frequent student names
+11. show total number of students of each departement
+12. EXIT
+
+example 1 when we register new students
+
+Enter your choice (0-12): 0    # since we want to register student we select 0
+
+ Student Registration Form 
+Enter the number of students: 2   here we input the number of students we want to register
+Enter student id : 1            student id
+Enter student name: abebe       student name
+Enter student GPA: 3            students grade
+Enter the department: cs        student departement
+Enter student gender (male/female):       male   student gender
+Registered successfully.
+Enter student id : 2         second student id
+Enter student name: almaz     name
+Enter student GPA: 4           grade
+Enter the department: cs       deparetment
+Enter student gender (male/female): female            gender
+Registered successfully. 
+
+Explanation:
+In this example, we choose option 0 from the menu to register new students. We input that we want to register 2 students. Then we provide the details for each student, including ID, name, GPA, department, and gender. The program processes the input and registers the students successfully, confirming with the "Registered successfully" message.
+
+
+Example 2: Search Student
+Enter your choice (0-12): 1
+Enter student ID: 1
+____student found____
+Name: abebe
+Gender: male
+GPA: 3.0
+Explanation:
+Here, we choose option 1 from the menu to search for a student. We input the ID of the student we want to search for (1 in this case). The program finds the student with that ID in the database and displays their information, including name, gender, and GPA.
+
+
+Example 3: Update Student Name
+Enter your choice (0-12): 2
+Enter student ID: 1
+Enter the corrected New Name: kebede
+Data of student 1 updated successfully.
+
+Explanation:
+In this example, we select option 2 from the menu to update a student's name. We provide the student ID we want to update along with the corrected new name. The program finds the student with the given ID, updates their name to "kebede," and confirms the successful update.
+
+
+example 4 count and display students
+
+Enter your choice (0-12): 5
+Student database:
+
+ID: 1
+Name: abebe
+Gender: male
+Department: cs
+GPA: 3.0
+
+ID: 2
+Name: almaz
+Gender: female
+Department: cs
+GPA: 4.0
+
+Total number of students is : 2
+
+Explanation:
+User Input: we chooses option 5 to count and display the total number of students.
+Expected Output: The program reads the student database and displays the information for each student, including ID, name, gender, department, and GPA. After displaying all student information, it prints the total number of students in the database, which is 2 in this case.
+
+example 5 delete a student information
+Enter your choice (0-12): 4
+Enter student ID to delete: 1
+Student with ID 1 has been deleted successfully.
+
+Explanation:
+User Input: we chooses option 4 to delete student information.
+Program Prompt: The program prompts the user to enter the student ID they want to delete.
+User Input: we inputs the student ID (1) of the student we want to delete.
+Expected Output: The program finds the student with ID 1 in the database and deletes their information, confirming the successful deletion with the message "Student with ID 1 has been deleted successfully."
+
+
+example 6  count total number of male and female students
+Enter your choice (0-12): 6
+ Input Student Gender male/female : female
+the Total number of students who are female is : 1
+explanation : this menu allow us to count total number of male and female students that are found,so since we have only one female student the number of female student is 1.
+
+
